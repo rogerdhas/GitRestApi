@@ -33,31 +33,31 @@ public class GitServiceTest {
 
     @Test
     public void openPrTest() throws Exception {
-        GitRepoStats openPr = service.getRepoStatistics("codecombat","skulpty","openpr");
-            Assert.assertEquals(2, openPr.getCount());
+        GitRepoStats openPr = service.getRepoStatistics("codecombat","codecombat","openpr");
+            Assert.assertEquals(47, openPr.getCount());
     }
 
     @Test
     public void closedPrTest() throws Exception {
         GitRepoStats closedPr = service.getRepoStatistics("codecombat","codecombat","closedpr");
-        Assert.assertEquals(3466, closedPr.getCount());
+        Assert.assertEquals(3474, closedPr.getCount());
     }
 
     @Test
     public void commitCountTest() throws Exception {
         GitRepoStats totalCommits = service.getRepoStatistics("rogerdhas","GitRestApi","30daysCommit");
-        Assert.assertEquals(5, totalCommits.getCount());
+        Assert.assertEquals(3, totalCommits.getCount());
     }
 
     @Test
     public void contributorsCountTest() throws Exception {
         GitRepoStats totalContributors = service.getRepoStatistics("rogerdhas","GitRestApi","contributors");
-        Assert.assertEquals(2, totalContributors.getCount());
+        Assert.assertEquals(1, totalContributors.getCount());
     }
 
     @Test
     public void contributorsNamesTest() throws Exception {
         List<GitContributors>  totalContributors = service.getContributorsNames("rogerdhas","GitRestApi");
-        Assert.assertEquals(2, totalContributors.size());
+        Assert.assertEquals(1, totalContributors.size());
     }
 }

@@ -66,7 +66,7 @@ public class GitController {
     @PostMapping("/contributorsname")
     @ApiOperation(value = "Get top 10 Contributors Names list",response = ResponseEntity.class)
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Successfully retrieved repositories list"),
+            @ApiResponse(code = 200, message = "Successfully retrieved top 10 Contributors in a repositories as list"),
             @ApiResponse(code = 500, message = "Internal server error"),
             @ApiResponse(code = 404, message = "The resource you were looking for is not found")
     }
@@ -101,7 +101,7 @@ public class GitController {
     @PostMapping("/statistics")
     @ApiOperation(value = "Get counts of any one of the operations ( open/closed Pr, commits in 30 days, contributors)",response = ResponseEntity.class)
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Successfully retrieved repositories list"),
+            @ApiResponse(code = 200, message = "Successfully retrieved count"),
             @ApiResponse(code = 500, message = "Internal server error"),
             @ApiResponse(code = 404, message = "The resource you were looking for is not found")
     }

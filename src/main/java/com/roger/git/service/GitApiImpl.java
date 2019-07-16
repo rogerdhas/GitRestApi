@@ -131,12 +131,12 @@ public class GitApiImpl implements IGitApi {
         ResponseEntity<?> responseEntity = processRequest(url, HttpMethod.GET, getRepoPrTypRef());
         List<GitRepoDetails> prlist = (List<GitRepoDetails>) responseEntity.getBody();
         String relLink=getRelLink(responseEntity.getHeaders(),firstTime);
-        if(firstTime && !relLink.equalsIgnoreCase("Not Found"))
+        if(firstTime && !"Not Found".equalsIgnoreCase(relLink))
         { responseCount +=calulatedCount;}
         else
         {responseCount +=prlist.size();}
         firstTime=false;
-        if(!relLink.equalsIgnoreCase("Not Found")){
+        if(!"Not Found".equalsIgnoreCase(relLink)){
             processPrdDetails(relLink,firstTime);
         }
     }

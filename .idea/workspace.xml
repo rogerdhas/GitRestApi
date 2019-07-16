@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f90d297-86f6-47c1-a493-6226576c78d4" name="Default Changelist" comment="" />
+    <list default="true" id="6f90d297-86f6-47c1-a493-6226576c78d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roger/git/controller/GitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roger/git/controller/GitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roger/git/service/GitApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roger/git/service/GitApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roger/git/strategy/GitStatisticsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roger/git/strategy/GitStatisticsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/roger/git/test/service/GitServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/roger/git/test/service/GitServiceTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,24 +18,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/roger/git/test/controller/ApiControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-885">
+            <state relative-caret-position="17">
               <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/strategy/GitStatisticsApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-154">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding>
-                <element signature="e#1686#1687#0" expanded="true" />
-                <element signature="e#1768#1769#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/strategy/StrategyContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/service/IGitApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/service/GitApiImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1192">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/controller/GitController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="97" column="44" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/util/ApiResponseUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-315">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/roger/git/test/service/GitServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +160,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/exception/RepoUserNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/util/GitConstant.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/roger/git/test/controller/ApiComtrollerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/roger/git/test/service/GitServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/controller/GlobalExceptionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/roger/git/service/GitApiImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/service/IGitApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/roger/git/strategy/GitStatisticsApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/strategy/StrategyContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -101,8 +169,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/health/CustomHealthIndicator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/bean/ApiCustomResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roger/git/util/ApiResponseUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/roger/git/controller/GitController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/roger/git/test/controller/ApiControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/roger/git/strategy/GitStatisticsApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/roger/git/service/GitApiImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/roger/git/controller/GitController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/roger/git/test/service/GitServiceTest.java" />
       </list>
     </option>
   </component>
@@ -128,19 +199,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GitRestApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitRestApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiControllerTest">
+  <component name="RunManager" selected="JUnit.GitServiceTest">
     <configuration name="ApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitRestApi" />
       <extension name="coverage">
@@ -299,10 +360,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GitServiceTest" />
         <item itemvalue="JUnit.ApiControllerTest" />
         <item itemvalue="JUnit.com.roger.git.test.service in GitRestApi" />
         <item itemvalue="JUnit.ApiControllerTest.retrieveOpenPrTest" />
-        <item itemvalue="JUnit.GitServiceTest" />
         <item itemvalue="JUnit.GitApiTest" />
       </list>
     </recent_temporary>
@@ -318,12 +379,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GitServiceTest - 2019.07.16 at 08h 22m 55s.xml">
-      <configuration name="GitServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiControllerTest - 2019.07.16 at 08h 53m 52s.xml">
-      <configuration name="ApiControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApiControllerTest_retrieveOpenPrTest - 2019.07.16 at 08h 54m 54s.xml">
       <configuration name="ApiControllerTest.retrieveOpenPrTest" configurationId="JUnit" />
     </history-entry>
@@ -348,11 +403,17 @@
     <history-entry file="ApiControllerTest - 2019.07.16 at 10h 25m 10s.xml">
       <configuration name="ApiControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApiControllerTest - 2019.07.16 at 19h 40m 59s.xml">
+      <configuration name="ApiControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GitServiceTest - 2019.07.16 at 19h 54m 12s.xml">
+      <configuration name="GitServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25869894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -481,47 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/service/IGitApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/strategy/GitStatisticsApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/strategy/StrategyContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE-sources.jar!/org/springframework/http/ResponseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/service/GitApiImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="144" column="73" selection-start-line="144" selection-start-column="73" selection-end-line="144" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,20 +642,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/util/ApiResponseUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/roger/git/test/controller/ApiControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="17">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/strategy/GitStatisticsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/roger/git/test/service/GitServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/strategy/StrategyContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/service/IGitApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/service/GitApiImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1192">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/util/ApiResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,21 +698,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/roger/git/controller/GitController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="97" column="44" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/roger/git/test/controller/ApiControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/roger/git/test/service/GitServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-885">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
